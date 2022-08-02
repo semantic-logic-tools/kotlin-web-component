@@ -1,6 +1,7 @@
 plugins {
     kotlin("multiplatform") version "1.7.10"
     `maven-publish`
+
 }
 
 group = "logic.tools"
@@ -20,23 +21,7 @@ kotlin {
     sourceSets {
         val jsMain by getting {
             dependencies {
-                implementation(project(":proto-web-component"))
-            }
-        }
-        val jsTest by getting {
-            dependencies {
-                implementation(kotlin("test"))
             }
         }
     }
 }
-
-
-/*publishing {
-    publications {
-        create<MavenPublication>("maven") {
-        }
-    }
-}
-
-*/

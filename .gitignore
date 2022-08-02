@@ -1,3 +1,4 @@
 /build
 /.gradle/
 /.idea
+/proto-web-component/build/
