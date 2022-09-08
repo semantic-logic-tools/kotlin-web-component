@@ -3,7 +3,7 @@ plugins {
     `maven-publish`
 }
 
-group = "logic.tools"
+group = "io.github.semantic-logic-tools"
 version = "1.0"
 
 repositories {

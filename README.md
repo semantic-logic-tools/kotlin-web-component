@@ -4,7 +4,7 @@
 Allows to write custom web components using Kotlin.
 
 
-To define your web component, create a class, either inheriting `logic.tools.web.components.WebComponent` or `logic.tools.web.components.BaseWebComponent` 
+To define your web component, create a class, either inheriting `io.github.semantic-logic-tools.web.components.WebComponent` or `io.github.semantic-logic-tools.web.components.BaseWebComponent` 
 which has empty implementations for `connectedCallback`, `disconnectedCallback`, `adoptedCallback`, `attributeChangedCallback`.
 
 
